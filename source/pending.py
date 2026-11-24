@@ -3,6 +3,11 @@ import json
 
 from freeze.revisions import initialize_revisions
 from source.origins import SourceOrigin
+from source.settlement import (
+    admit_settlement,
+    initialize_settlement,
+    read_settlement,
+)
 from storage import open_database
 
 
@@ -21,6 +26,7 @@ class PendingEntry:
 
 def _initialize(db):
     initialize_revisions(db)
+    initialize_settlement(db)
     db.execute('''
         CREATE TABLE IF NOT EXISTS registrations (
             entry_id INTEGER PRIMARY KEY,

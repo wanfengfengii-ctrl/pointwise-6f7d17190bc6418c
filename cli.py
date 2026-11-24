@@ -99,6 +99,10 @@ def demo(directory):
         'oracle': '逐行手算 7+11、7+17、13+17，并用样例的原质控出处核对中间账。',
     }
     print('POINTWISE_SCENARIO ' + json.dumps(scenario, ensure_ascii=False, sort_keys=True))
+    # 勘误结清回执：两条出版履历的真实导出、送达与离线结清结果。
+    from settlement_demo import run_settlement_demo
+    settlement = run_settlement_demo(directory / 'settlement')
+    print('SETTLEMENT ' + json.dumps(settlement, ensure_ascii=False, sort_keys=True))
 
 
 def main():
