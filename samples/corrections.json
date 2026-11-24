@@ -1,0 +1,7 @@
+{
+  "records": [
+    {"row": "A", "column": "meter", "value": 13, "origin": "meter-A-amend", "correction": "day-shift-01"},
+    {"row": "A", "column": "quality", "value": "待复核", "origin": "quality-A-amend", "correction": "day-shift-01"},
+    {"row": "B", "column": "meter", "value": 17, "origin": "meter-B-amend", "correction": "day-shift-01"}
+  ]
+}

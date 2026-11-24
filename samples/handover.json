@@ -1,0 +1,7 @@
+{
+  "issues": {
+    "initial": {"meter": "M-01", "quality": "Q-01"},
+    "corrected": {"meter": "M-02", "quality": "Q-02"},
+    "late": {"meter": "M-01-LATE", "quality": "Q-01-LATE"}
+  }
+}

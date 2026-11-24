@@ -1,0 +1,10 @@
+{
+  "site": "青岔河上游站",
+  "day": "2026-11-18",
+  "records": [
+    {"row": "A", "column": "meter", "value": 7, "origin": "meter-A-open"},
+    {"row": "B", "column": "meter", "value": 11, "origin": "meter-B-open"},
+    {"row": "A", "column": "quality", "value": "合格", "origin": "quality-A-open"},
+    {"row": "B", "column": "quality", "value": "合格", "origin": "quality-B-open"}
+  ]
+}
